@@ -234,6 +234,7 @@
                     </div>
                     <div class="col empty">&nbsp;</div>
                     <div class="col span_12 social">
+                        <a class="icon-twitter" href="#" target="_blank"></a>
                         <a class="icon-github" href="https://github.com/sinclairdong" target="_blank"></a>
                         <a class="icon-linkedin" href="https://www.linkedin.com/in/yuesen-dong-101147130/" target="_blank"></a>
                     </div>
