@@ -2,7 +2,7 @@
 <!-- saved from url=(0037)http://hovertree.com/texiao/html5/42/ -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
-    <title>新年快乐HTML5特效_何问起</title>
+    <title>新年快乐</title>
     <link rel="stylesheet" href="./新年快乐HTML5特效_何问起_files/hovertree.css" media="screen" type="text/css">
     <link rel="stylesheet" href="./新年快乐HTML5特效_何问起_files/style.css" media="screen" type="text/css">
 </head>
@@ -33,7 +33,7 @@
     <canvas id="text" width="600" height="200"></canvas>
     <canvas id="stage" width="1920" height="961"></canvas>
     <form id="form" style="top: 530.5px; left: 660px;">
-        <input type="submit" value="告别"> <input type="text" id="inputText" value="2016" style="display:none">
+        <input type="submit" value="告别"> <input type="text" id="inputText" value="2017" style="display:none">
     </form>
     <script src="./新年快乐HTML5特效_何问起_files/TweenLite.min.js"></script>
     <script src="./新年快乐HTML5特效_何问起_files/easeljs-0.7.1.min.js"></script>
