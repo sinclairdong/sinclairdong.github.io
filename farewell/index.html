@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>2018 Summer EADG COOP</title>
+
+<style type="text/css">
+@font-face {
+	font-family: digit;
+	src: url('digital-7_mono.ttf') format("truetype");
+}
+</style>
+
+<link href="css/default.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/garden.js"></script>
+<script type="text/javascript" src="js/functions.js"></script>
+
+</head>
+
+<body>
+<div id="mainDiv">
+	<div id="content">
+		<div id="code">
+			<span class="comments">/**</span><br />
+			<span class="space"/><span class="comments">*2018—05-07,</span><br />
+			<span class="space"/><span class="comments">*2018-08-31.</span><br />
+			<span class="space"/><span class="comments">*/</span><br />
+			Boss name  = <span class="keyword">Nazish</span>;<br />
+			Coop names = {<span class="keyword">Yuesen, Michale, Jason, Samara</span>}; <br />
+			names.append( <span class="keyword">Sindhu, Phyllis, Sean, Keatan</span>);<br />
+			<span class="comments">// Thank you so much for </span><br />
+			providing an amazing co-op experience this summer;<br />
+			<span class="comments">// We all learned something new.</span><br />
+			built meaningful relationships,  and acquired skills;<br />
+			<span class="comments">// that will help us moving forward in our academic .</span><br />
+			and professional careers;<br />
+			<span class="comments">// Thank you for all your efforts to make sure.</span><br />
+			we were happy and contributing;<br />
+			<span class="comments">// You helped cultivate a strong sense.</span><br />
+			<span class="comments">// of community among the co-op team and .</span><br />
+			<span class="keyword"> and the memories will last a <span class="keyword"> lifetime</span>!</span>;<br />
+			<br>
+			<br>
+			At the end<br />
+			we want to say:<br />
+			Thank you for this magical journy!;<br />
+		</div>
+		<div id="loveHeart">
+			<canvas id="garden"></canvas>
+			<div id="words">
+				<div id="messages">
+					We Have Joinded This Great Team For
+					<div id="elapseClock"></div>
+				</div>
+				<div id="loveu">
+					and we shall remember.<br/>
+					<div class="signature">-2018 EADG Coop</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript">
+var offsetX = $("#loveHeart").width() / 2;
+var offsetY = $("#loveHeart").height() / 2 - 55;
+var together = new Date();
+together.setFullYear(2018, 4, 7);
+together.setHours(9);
+together.setMinutes(0);
+together.setSeconds(0);
+together.setMilliseconds(0);
+
+if (!document.createElement('canvas').getContext) {
+	var msg = document.createElement("div");
+	msg.id = "errorMsg";
+	msg.innerHTML = "Your browser doesn't support HTML5!<br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+"; 
+	document.body.appendChild(msg);
+	$("#code").css("display", "none")
+	$("#copyright").css("position", "absolute");
+	$("#copyright").css("bottom", "10px");
+	document.execCommand("stop");
+} else {
+	setTimeout(function () {
+		startHeartAnimation();
+	}, 5000);
+
+	timeElapse(together);
+	setInterval(function () {
+		timeElapse(together);
+	}, 500);
+
+	adjustCodePosition();
+	$("#code").typewriter();
+}
+</script>
+<div style="text-align:center;clear:both">
+</div>
+</body>
+</html>
