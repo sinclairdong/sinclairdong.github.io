@@ -1,0 +1,14 @@
+Oracle
+Apple
+google
+red hat
+dropbox
+tableau
+cloudera
+oath
+Samsung
+NVIDIA
+intel
+Amazon
+cisco
+Microsoft
